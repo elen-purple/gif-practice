@@ -66,6 +66,11 @@ export class GifList extends Component {
       JSON.stringify(prevProps.search) !== JSON.stringify(this.props.search) ||
       prevState.page !== this.state.page
     ) {
+      if (
+        JSON.stringify(prevProps.search) !== JSON.stringify(this.props.search)
+      ) {
+        this.setState({ page: 1 });
+      }
       await this.getGifs(scroll);
     }
   };
