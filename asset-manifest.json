@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/gif-practice/static/js/main.c8fababe.js",
+    "main.js": "/gif-practice/static/js/main.1a027e3f.js",
     "index.html": "/gif-practice/index.html",
-    "main.c8fababe.js.map": "/gif-practice/static/js/main.c8fababe.js.map"
+    "main.1a027e3f.js.map": "/gif-practice/static/js/main.1a027e3f.js.map"
   },
   "entrypoints": [
-    "static/js/main.c8fababe.js"
+    "static/js/main.1a027e3f.js"
   ]
 }
